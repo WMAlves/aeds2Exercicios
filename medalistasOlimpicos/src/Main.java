@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList <String> listaMedatlista = new ArrayList<>();
 
+        //necessário baixar o arquivo medalistas e salvar no diretorio local
        File file = new File("C:\\Users\\998780\\Downloads\\medallists.csv");
        Scanner sc = null;
 
